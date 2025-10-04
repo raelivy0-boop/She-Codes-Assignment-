@@ -1,0 +1,124 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .items {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .card {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background: #222;
+            color: white;
+        }
+        .benefits {
+            margin: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fashion Store 👗👕</h1>
+    </header>
+
+    <section class="items">
+        <div class="card">
+            <img src="shirt.jpg" alt="Shirt">
+            <h3>Casual Shirt</h3>
+            <p>$25</p>
+        </div>
+        <div class="card">
+            <img src="dress.jpg" alt="Dress">
+            <h3>Summer Dress</h3>
+            <p>$40</p>
+        </div>
+        <div class="card">
+            <img src="shoes.jpg" alt="Shoes">
+            <h3>Stylish Shoes</h3>
+            <p>$60</p>
+        </div>
+    </section>
+
+    <h2 style="text-align:center;">Upcoming Sales</h2>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Discount</th>
+            <th>Date</th>
+        </tr>
+        <tr>
+            <td>Casual Shirt</td>
+            <td>20% Off</td>
+            <td>10th Oct 2025</td>
+        </tr>
+        <tr>
+            <td>Summer Dress</td>
+            <td>15% Off</td>
+            <td>12th Oct 2025</td>
+        </tr>
+        <tr>
+            <td>Shoes</td>
+            <td>25% Off</td>
+            <td>15th Oct 2025</td>
+        </tr>
+    </table>
+
+    <div class="benefits">
+        <h2>Why Shop With Us?</h2>
+        <p>✔ Affordable Prices</p>
+        <p>✔ High Quality Products</p>
+        <p>✔ Fast Delivery</p>
+        <p>✔ Secure Payments</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Fashion Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
